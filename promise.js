@@ -22,4 +22,8 @@ function getMeal(string,callback) {
 }
 
 //getChicken("닭",getEgg) //이건 가능
-getChicken("닭",getEgg())
+// getChicken("닭",getEgg())
+getChicken("닭",(string)=>{
+  console.log(string)
+
+})
